@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 34, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(91, 100%, 56%);
+    
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 100%, 50%);
+    
+}
